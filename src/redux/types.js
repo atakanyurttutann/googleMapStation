@@ -1,0 +1,8 @@
+// AUTH
+export const SET_USER_LOGIN = "SET_USER_LOGIN";
+export const SET_LOGIN_MESSAGE = "SET_LOGIN_MESSAGE";
+export const SET_USER_DATA = "SET_USER_DATA";
+
+// LOADING
+
+export const SET_LOADING = "SET_LOADING";
