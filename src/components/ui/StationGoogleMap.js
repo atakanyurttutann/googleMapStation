@@ -10,8 +10,8 @@ const StationGoogleMap = ({ mapInfo }) => {
       const map = new window.google.maps.Map(document.getElementById("map"), {
         zoom: 20,
       });
-      var infowindow = new window.google.maps.InfoWindow();
-      var marker, i;
+      let infowindow = new window.google.maps.InfoWindow();
+      let marker, i;
       const bounds = new window.google.maps.LatLngBounds();
 
       mapInfo.forEach((item, index) => {
